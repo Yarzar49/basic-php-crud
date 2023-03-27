@@ -8,7 +8,7 @@ try {
     
     ]);
 } catch (PDOException $err) {
-    echo "Database connection failed : ".$err->getMessage();
+    echo "Database connection failed : ".$err->getMessage();$HTTP_RAW_POST_DATA
 }
 
 
